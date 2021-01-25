@@ -1,0 +1,468 @@
+<!DOCTYPE html> <html><head>
+        <title>Unit 4 Project</title>
+    <style>.logo {
+    height: 40px;
+    position: absolute;
+    left: 17%;
+    top: 15px;
+}
+
+.search {
+    width: 225px;
+    position: absolute;
+    left: 40%;
+    top: -80px;
+    opacity: 0.2;
+}
+
+.home {
+    height: 70px;
+    position: absolute;
+    right: 27.5%;
+    top: 5px;
+}
+
+.send {
+    height: 30px;
+    position: absolute;
+    right: 26%;
+    top: 19px;
+}
+
+.compass {
+    height: 30px;
+    position: absolute;
+    right: 23%;
+    top: 19px;
+}
+
+.likes {
+    height: 30px;
+    position: absolute;
+    right: 19.5%;
+    top: 19px;
+}
+
+.user {
+    height: 35px;
+    position: absolute;
+    right: 17%;
+    top: 15px;
+}
+
+.profilePic {
+    border-radius: 50%;
+    height: 150px;
+    position: absolute;
+    left: 23%;
+    top: 90px;
+}
+
+.hr1 {
+    position: absolute;
+    top: 63px;
+    width: 100%;
+    opacity: 0.5;
+}
+
+.name {
+    position: absolute;
+    left: 40%;
+    top: 73px;
+    font-size: 26px;
+}
+
+.verified {
+    height: 22px;
+    position: absolute;
+    left: 47.5%;
+    top: 103.5px;
+}
+
+.message {
+    border: solid #D3D3D3 1px;
+    width: 60px;
+    border-radius: 5px;
+    padding: 5px;
+    position: absolute;
+    left: 51%;
+    top: 85px;
+    font-size: 17px;
+}
+
+.following1 {
+    height: 30px;
+    width: 60px;
+    border: solid #D3D3D3 1px;
+    border-radius: 5px;
+    position: absolute;
+    left: 56.25%;
+    top: 102px;
+}
+
+.downArrow {
+    height: 30px;
+    border: solid #D3D3D3 1px;
+    border-radius: 5px;
+    position: absolute;
+    left: 60.75%;
+    top: 102px;
+}
+
+.ellipsis {
+    position: absolute;
+    left: 63.5%;
+    top: 69px;
+    font-size: 26px;
+}
+
+.posts {
+    position: absolute;
+    left: 40%;
+    top: 132px;
+    font-size: 17.9px;
+}
+
+.followers {
+    position: absolute;
+    left: 47.5%;
+    top: 132px;
+    font-size: 17.9px;
+}
+
+.following2 {
+    position: absolute;
+    left: 58%;
+    top: 132px;
+    font-size: 17.9px;
+}
+
+.fullName {
+    position: absolute;
+    left: 40%;
+    top: 176px;
+    font-size: 17.2px;
+}
+
+.description {
+    position: absolute;
+    left: 40%;
+    top: 200px;
+    font-size: 17px;
+    width: 650px;
+}
+
+.website {
+    position: absolute;
+    left: 40%;
+    top: 244px;
+    font-size: 17px;
+    width: 650px;
+    color: #00376b;
+}
+
+a:link {
+    color: #00376b;
+}
+
+a:visited {
+    color: #00376b;
+}
+
+a:hover {
+    color: #00376b;
+}
+
+a:active {
+    color: #00376b;
+}
+
+.info {
+    font-family: Arial, sans-serif;
+}
+
+.story1 {
+    height: 70px;
+    border: double #D3D3D3 5px;
+    border-radius: 50%;
+    position: absolute;
+    left: 22%;
+    top: 350px;
+}
+
+.story2 {
+    height: 70px;
+    border: double #D3D3D3 5px;
+    border-radius: 50%;
+    position: absolute;
+    left: 31%;
+    top: 350px;
+}
+
+.story3 {
+    height: 70px;
+    border: double #D3D3D3 5px;
+    border-radius: 50%;
+    position: absolute;
+    left: 40%;
+    top: 350px;
+}
+
+.story4 {
+    font-size: 14px;
+    position: absolute;
+    left: 22.5%;
+    top: 430px;
+}
+
+.story5 {
+    font-size: 14px;
+    position: absolute;
+    left: 32.7%;
+    top: 430px;
+}
+
+.story6 {
+    font-size: 14px;
+    position: absolute;
+    left: 41%;
+    top: 430px;
+}
+
+.hr2 {
+    position: absolute;
+    top: 525px;
+    width: 950px;
+    left: 250px;
+    opacity: 0.5;
+}
+
+.hr3 {
+    position: absolute;
+    top: 525px;
+    width: 65px;
+    left: 575px;
+    border: 0.75px solid black;
+}
+
+.posts1 {
+    height: 17px;
+    position: absolute;
+    top: 548.5px;
+    left: 575px;
+}
+
+.posts2 {
+    font-size: 13px;
+    position: absolute;
+    top: 537px;
+    left: 597px;
+}
+
+.igtv1 {
+    height: 17px;
+    position: absolute;
+    top: 548px;
+    left: 695px;
+    opacity: 0.5;
+}
+
+.igtv2 {
+    font-size: 13px;
+    position: absolute;
+    top: 536px;
+    left: 718px;
+    opacity: 0.5;
+}
+
+.tagged1 {
+    height: 17px;
+    position: absolute;
+    top: 548px;
+    left: 820px;
+    opacity: 0.5;
+}
+
+.tagged2 {
+    font-size: 13px;
+    position: absolute;
+    top: 537px;
+    left: 844.5px;
+    opacity: 0.5;
+}
+
+.imgs1 {
+    display: flex;
+    justify-content: space-evenly;
+    position: absolute;
+    width: 950px;
+    left: 250px;
+    top: 590px;
+}
+
+.post01 {
+    height: 293px;
+    width: 293px;
+}
+
+.imgs2 {
+    display: flex;
+    justify-content: space-evenly;
+    position: absolute;
+    width: 950px;
+    left: 250px;
+    top: 900px;
+}
+
+.post02 {
+    height: 293px;
+    width: 293px;
+}
+
+.imgs3 {
+    display: flex;
+    justify-content: space-evenly;
+    position: absolute;
+    width: 950px;
+    left: 250px;
+    top: 1210px;
+}
+
+.post03 {
+    height: 293px;
+    width: 293px;
+}
+
+.imgs4 {
+    display: flex;
+    justify-content: space-evenly;
+    position: absolute;
+    width: 950px;
+    left: 250px;
+    top: 1520px;
+}
+
+.post04 {
+    height: 293px;
+    width: 293px;
+}
+
+.imgs5 {
+    display: flex;
+    justify-content: space-evenly;
+    position: absolute;
+    width: 950px;
+    left: 250px;
+    top: 1831px;
+}
+
+.post05 {
+    height: 293px;
+    width: 293px;
+}
+
+.imgs6 {
+    display: flex;
+    justify-content: space-evenly;
+    position: absolute;
+    width: 950px;
+    left: 250px;
+    top: 2142px;
+}
+
+.post06 {
+    height: 293px;
+    width: 293px;
+}
+
+.imgs7 {
+    display: flex;
+    justify-content: space-evenly;
+    position: absolute;
+    width: 950px;
+    left: 250px;
+    top: 2453px;
+    padding-bottom: 25px;
+}
+
+.post07 {
+    height: 293px;
+    width: 293px;
+}</style></head>
+    <body>
+        <div>
+            <img class="logo" src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/Instagram_logo.svg/1200px-Instagram_logo.svg.png">
+            <img class="search" src="https://static.thenounproject.com/png/2161479-200.png">
+            <img class="home" src="https://image.shutterstock.com/image-vector/instagram-home-social-media-icon-260nw-1439319005.jpg">
+            <img class="send" src="https://cdn0.iconfinder.com/data/icons/instagram-ui-1/24/Instagram-UI_send-512.png">
+            <img class="compass" src="https://cdn3.iconfinder.com/data/icons/instagram-18/512/186_Instagram_Compass_Navigation-512.png">
+            <img class="likes" src="https://www.kindpng.com/picc/m/169-1694281_heart-symbol-computer-icons-heart-icon-instagram-png.png">
+            <img class="user" src="https://cdn2.iconfinder.com/data/icons/instagram-outline/19/11-512.png">
+            <img class="profilePic" src="https://scontent-ort2-2.cdninstagram.com/v/t51.2885-19/s320x320/43818140_2116018831763532_3803033961098117120_n.jpg?_nc_ht=scontent-ort2-2.cdninstagram.com&amp;_nc_ohc=ZcU4WH-wr0UAX95vw22&amp;tp=1&amp;oh=d7414d80c54c26697a7671e42e423533&amp;oe=60285672">
+            <img class="verified" src="https://img.icons8.com/color/344/instagram-verification-badge.png">
+            <p class="message"><strong>Message</strong></p>
+            <img class="following1" src="https://cdn1.iconfinder.com/data/icons/twitter-ui-glyph/48/Sed-26-512.png">
+            <img class="downArrow" src="https://cdn4.iconfinder.com/data/icons/ionicons/512/icon-arrow-down-b-512.png">
+            <p class="ellipsis"><strong>...</strong></p>
+            <img class="story1" src="https://scontent-ort2-2.cdninstagram.com/v/t51.12442-15/e35/c0.398.1024.1024a/s150x150/29087606_126595214845908_6406382890979950592_n.jpg?_nc_ht=scontent-ort2-2.cdninstagram.com&amp;_nc_cat=1&amp;_nc_ohc=nrmuoGUNxbwAX_YDCms&amp;tp=1&amp;oh=afb72a8467ff5c52824ce6da0e5e0288&amp;oe=6009CDFA">
+            <img class="story2" src="https://scontent-ort2-2.cdninstagram.com/v/t51.12442-15/e35/c0.398.1024.1024a/s150x150/49858318_2418636784877195_6915498036861342520_n.jpg?_nc_ht=scontent-ort2-2.cdninstagram.com&amp;_nc_cat=1&amp;_nc_ohc=B4NMKUKks-YAX9aj-aX&amp;tp=1&amp;oh=a680d7eeee901f578a968a04880920d5&amp;oe=6009EFF6">
+            <img class="story3" src="https://scontent-ort2-2.cdninstagram.com/v/t51.12442-15/e35/c0.420.1080.1080a/s150x150/46979213_950969048434538_6182136933187394203_n.jpg?_nc_ht=scontent-ort2-2.cdninstagram.com&amp;_nc_cat=1&amp;_nc_ohc=zEKxS5hF5zIAX8SpDxz&amp;tp=1&amp;oh=005b9b4bce3dfd513d16a33c072583d1&amp;oe=600A3C63">
+            <img class="posts1" src="https://cdn0.iconfinder.com/data/icons/instagram-32/512/Grid_Layout-512.png">
+            <img class="igtv1" src="https://img.icons8.com/ios/452/igtv.png">
+            <img class="tagged1" src="https://cdn0.iconfinder.com/data/icons/instagram-ui-1/24/Instagram-UI_tagged-512.png">
+        </div>
+        <hr class="hr1">
+        <div class="info">
+            <p class="name">leomessi</p>
+            <p class="posts"><strong>665</strong> posts</p>
+            <p class="followers"><strong>178m</strong> followers</p>
+            <p class="following2"><strong>234</strong> following</p>
+            <p class="fullName"><strong>Leo Messi</strong></p>
+            <p class="description">Bienvenidos a la cuenta oficial de Instagram de Leo Messi / Welcome to the official Leo Messi Instagram account</p>
+            <p class="website"><a href="https://www.themessistore.com" target="_blank"><strong>themessistore.com</strong></a></p>
+            <p class="story4"><strong>Selección</strong></p>
+            <p class="story5"><strong>FCB</strong></p>
+            <p class="story6"><strong>Familia</strong></p>
+            <p class="posts2">POSTS</p>
+            <p class="igtv2">IGTV</p>
+            <p class="tagged2">TAGGED</p>
+        </div>
+        <hr class="hr2">
+        <hr class="hr3">
+        <div class="imgs1">
+            <a href="https://www.instagram.com/p/CJ1mZGelybT/" target="_blank"><img class="post01" src="https://scontent-ort2-2.cdninstagram.com/v/t51.2885-15/sh0.08/e35/s640x640/136958546_1067888490298947_8715808072785050951_n.jpg?_nc_ht=scontent-ort2-2.cdninstagram.com&amp;_nc_cat=1&amp;_nc_ohc=mJNq1rlJH3cAX-tZHiE&amp;tp=1&amp;oh=cf97c5bce1fea1487ff4da19a4a239e5&amp;oe=603086F5"></a>
+            <a href="https://www.instagram.com/p/CJzBOPAl0xh/" target="_blank"><img class="post01" src="https://scontent-ort2-2.cdninstagram.com/v/t51.2885-15/sh0.08/e35/s640x640/136082573_448431849875972_9137517437419894565_n.jpg?_nc_ht=scontent-ort2-2.cdninstagram.com&amp;_nc_cat=1&amp;_nc_ohc=tWpMwKOJM9cAX-eKhci&amp;tp=1&amp;oh=1a9888804917d0a1ad2ceb13c319d236&amp;oe=6030CA32"></a>
+            <a href="https://www.instagram.com/p/CJosl4jl51p/" target="_blank"><img class="post01" src="https://scontent-ort2-2.cdninstagram.com/v/t51.2885-15/sh0.08/e35/c0.90.720.720a/s640x640/135299031_237651104601528_2299233994695470892_n.jpg?_nc_ht=scontent-ort2-2.cdninstagram.com&amp;_nc_cat=1&amp;_nc_ohc=j8HoxbLTkfkAX-6oe-k&amp;tp=1&amp;oh=de256fafa62d5ae25ed098323a6c1087&amp;oe=600A9EE0"></a>
+        </div>
+        <div class="imgs2">
+            <a href="https://www.instagram.com/p/CJnfUvFlh6m/" target="_blank"><img class="post02" src="https://scontent-ort2-2.cdninstagram.com/v/t51.2885-15/sh0.08/e35/s640x640/135054302_442807296739731_7925001052939264151_n.jpg?_nc_ht=scontent-ort2-2.cdninstagram.com&amp;_nc_cat=1&amp;_nc_ohc=TGZxwxvRtgQAX9Xeggn&amp;tp=1&amp;oh=146935f3402d2eb8944d9ee793ec6b06&amp;oe=6031C79A"></a>
+            <a href="https://www.instagram.com/p/CJlkzDrl8CT/" target="_blank"><img class="post02" src="https://scontent-ort2-2.cdninstagram.com/v/t51.2885-15/sh0.08/e35/s640x640/135032852_749493855671264_8869499153656979267_n.jpg?_nc_ht=scontent-ort2-2.cdninstagram.com&amp;_nc_cat=1&amp;_nc_ohc=emnmOR9j0LIAX9oCdR_&amp;tp=1&amp;oh=4007191d50ec0625702427fd3a1547bd&amp;oe=6030787F"></a>
+            <a href="https://www.instagram.com/p/CJgkLGflScy/" target="_blank"><img class="post02" src="https://scontent-ort2-2.cdninstagram.com/v/t51.2885-15/sh0.08/e35/c45.0.1121.1121a/s640x640/134538416_1267681246943162_8361261426083839064_n.jpg?_nc_ht=scontent-ort2-2.cdninstagram.com&amp;_nc_cat=1&amp;_nc_ohc=eUlQ3YoQiQwAX_djxhL&amp;tp=1&amp;oh=8cdea0e2f6629287376dffda3c4c53c7&amp;oe=60310CD6"></a>
+        </div>
+        <div class="imgs3">
+            <a href="https://www.instagram.com/p/CJbwIMLqbLg/" target="_blank"><img class="post03" src="https://scontent-ort2-2.cdninstagram.com/v/t51.2885-15/sh0.08/e35/c0.90.720.720a/s640x640/133911304_117493136884556_9099423797509465258_n.jpg?_nc_ht=scontent-ort2-2.cdninstagram.com&amp;_nc_cat=1&amp;_nc_ohc=lemX7yY4DREAX9HKAGP&amp;tp=1&amp;oh=03b2d5cf43a5039d7b9e14d5e3f4ea31&amp;oe=600B07C6"></a>
+            <a href="https://www.instagram.com/p/CJLRhSKq_JZ/" target="_blank"><img class="post03" src="https://scontent-ort2-2.cdninstagram.com/v/t51.2885-15/sh0.08/e35/c0.90.720.720a/s640x640/133043357_157343182412037_7606659362937217139_n.jpg?_nc_ht=scontent-ort2-2.cdninstagram.com&amp;_nc_cat=1&amp;_nc_ohc=XfUHPK08thMAX9_k-T6&amp;tp=1&amp;oh=5abef02b7e5cd68831026c166ec31a23&amp;oe=600AA266"></a>
+            <a href="https://www.instagram.com/p/CJJuFoVKRkf/" target="_blank"><img class="post03" src="https://scontent-ort2-2.cdninstagram.com/v/t51.2885-15/sh0.08/e35/c0.90.720.720a/s640x640/132666807_421342195720194_4458921855346546184_n.jpg?_nc_ht=scontent-ort2-2.cdninstagram.com&amp;_nc_cat=1&amp;_nc_ohc=PWgmHDHN_iwAX9g1Ova&amp;tp=1&amp;oh=e809b013d001db70960a2890e00b7d07&amp;oe=600AAEED"></a>
+        </div>
+        <div class="imgs4">
+            <a href="https://www.instagram.com/p/CJIuGhDqj7a/" target="_blank"><img class="post04" src="https://scontent-ort2-2.cdninstagram.com/v/t51.2885-15/sh0.08/e35/c0.90.720.720a/s640x640/132092567_424959885535209_6358402985300965253_n.jpg?_nc_ht=scontent-ort2-2.cdninstagram.com&amp;_nc_cat=1&amp;_nc_ohc=wZsR00BFQP4AX8nA4o3&amp;tp=1&amp;oh=5dbf35160ab3a3e0da4d506abb4263be&amp;oe=600AFA4E"></a>
+            <a href="https://www.instagram.com/p/CJHmB6Vl5T9/" target="_blank"><img class="post04" src="https://scontent-ort2-2.cdninstagram.com/v/t51.2885-15/sh0.08/e35/c121.0.925.925a/s640x640/131943148_218541769859918_7315751466599258144_n.jpg?_nc_ht=scontent-ort2-2.cdninstagram.com&amp;_nc_cat=1&amp;_nc_ohc=kKNYWAzsUe8AX946zeh&amp;tp=1&amp;oh=7898fce5ce50c9d2fc01eb5c3d91a96c&amp;oe=6030891D"></a>
+            <a href="https://www.instagram.com/p/CJEGeVkllpL/" target="_blank"><img class="post04" src="https://scontent-ort2-2.cdninstagram.com/v/t51.2885-15/sh0.08/e35/c0.15.679.679a/s640x640/132002543_702101640443546_5679955430337595507_n.jpg?_nc_ht=scontent-ort2-2.cdninstagram.com&amp;_nc_cat=1&amp;_nc_ohc=zp71UhSzNu0AX9Wb-SF&amp;tp=1&amp;oh=e8d74578e678ce97870b0f5dc574d379&amp;oe=60303687"></a>
+        </div>
+        <div class="imgs5">
+            <a href="https://www.instagram.com/p/CJCD5nrKgGg/" target="_blank"><img class="post05" src="https://scontent-ort2-2.cdninstagram.com/v/t51.2885-15/sh0.08/e35/s640x640/131889346_479869540076665_6650338535965746068_n.jpg?_nc_ht=scontent-ort2-2.cdninstagram.com&amp;_nc_cat=1&amp;_nc_ohc=pn8y1tLbKv8AX8u_B5e&amp;tp=1&amp;oh=78f344d36a871a34cc8ab9d0b257c142&amp;oe=600AE347"></a>
+            <a href="https://www.instagram.com/p/CJBupOZFNy4/" target="_blank"><img class="post05" src="https://scontent-ort2-2.cdninstagram.com/v/t51.2885-15/sh0.08/e35/c0.57.1006.1006a/s640x640/132254564_238361251243052_7382885494481226018_n.jpg?_nc_ht=scontent-ort2-2.cdninstagram.com&amp;_nc_cat=1&amp;_nc_ohc=0swgivIIXoUAX8SE97V&amp;tp=1&amp;oh=529fd8a87dd34943beaaf5232893ddda&amp;oe=60337E34"></a>
+            <a href="https://www.instagram.com/p/CI8kGSSFdbG/" target="_blank"><img class="post05" src="https://scontent-ort2-2.cdninstagram.com/v/t51.2885-15/sh0.08/e35/c0.44.1440.1440a/s640x640/131896855_838736246910568_2411655400006735937_n.jpg?_nc_ht=scontent-ort2-2.cdninstagram.com&amp;_nc_cat=1&amp;_nc_ohc=O8tG0uVC084AX-BhwSx&amp;tp=1&amp;oh=e9a2c7b53b0f3083e758e071ec74c377&amp;oe=60311226"></a>
+        </div>
+        <div class="imgs6">
+            <a href="https://www.instagram.com/p/CI6BMsnFSYE/" target="_blank"><img class="post06" src="https://scontent-ort2-2.cdninstagram.com/v/t51.2885-15/sh0.08/e35/c0.169.1349.1349a/s640x640/131418604_2799856826939008_9010712460703217405_n.jpg?_nc_ht=scontent-ort2-2.cdninstagram.com&amp;_nc_cat=1&amp;_nc_ohc=UnVIxnbBVZIAX__fTQk&amp;tp=1&amp;oh=8eb2d86d735ef3f2d62423135735793b&amp;oe=60321FA9"></a>
+            <a href="https://www.instagram.com/p/CI4E8X3FBlG/" target="_blank"><img class="post06" src="https://scontent-ort2-2.cdninstagram.com/v/t51.2885-15/sh0.08/e35/s640x640/131345281_1468226173388191_6691537402784787234_n.jpg?_nc_ht=scontent-ort2-2.cdninstagram.com&amp;_nc_cat=1&amp;_nc_ohc=QVmHQz983n0AX_iIRcf&amp;tp=1&amp;oh=f67918176a9b782f4fbd109bf4fde33f&amp;oe=6033C92A"></a>
+            <a href="https://www.instagram.com/p/CIylcQjF70s/" target="_blank"><img class="post06" src="https://scontent-ort2-2.cdninstagram.com/v/t51.2885-15/sh0.08/e35/s640x640/130825296_981943922329622_3079653456187777957_n.jpg?_nc_ht=scontent-ort2-2.cdninstagram.com&amp;_nc_cat=1&amp;_nc_ohc=FlijDtgX02QAX-uF1FY&amp;tp=1&amp;oh=de5fd1c5457a7b8411605eed2a213365&amp;oe=603086F9"></a>
+        </div>
+        <div class="imgs7">
+            <a href="https://www.instagram.com/p/CIwUg71FQZF/" target="_blank"><img class="post07" src="https://scontent-ort2-2.cdninstagram.com/v/t51.2885-15/sh0.08/e35/s640x640/130744008_719671352259591_3853460884989474573_n.jpg?_nc_ht=scontent-ort2-2.cdninstagram.com&amp;_nc_cat=1&amp;_nc_ohc=fOX0B8MmKwIAX9VEK-N&amp;tp=1&amp;oh=5f04ee634dd3762be7928e4badd084c3&amp;oe=6031FBC8"></a>
+            <a href="https://www.instagram.com/p/CIjdmMKlqlT/" target="_blank"><img class="post07" src="https://scontent-ort2-2.cdninstagram.com/v/t51.2885-15/e35/c0.68.624.624a/129772858_983247612199793_9113860138962985773_n.jpg?_nc_ht=scontent-ort2-2.cdninstagram.com&amp;_nc_cat=1&amp;_nc_ohc=-sZbim9gvUAAX9mBBou&amp;tp=1&amp;oh=0330c9eff31fcc02325ec4b79d5de924&amp;oe=6034031A"></a>
+            <a href="https://www.instagram.com/p/CIX2xeXFImy/" target="_blank"><img class="post07" src="https://scontent-ort2-2.cdninstagram.com/v/t51.2885-15/sh0.08/e35/s640x640/129405992_429241348452228_5371914961476604451_n.jpg?_nc_ht=scontent-ort2-2.cdninstagram.com&amp;_nc_cat=1&amp;_nc_ohc=gRWYlU5HDIYAX-L_fio&amp;tp=1&amp;oh=5622a5d78bf8d9436995d3658bb28045&amp;oe=60329EE6"></a>
+        </div>
+    
+</body></html>
