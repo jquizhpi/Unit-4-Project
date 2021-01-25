@@ -1,0 +1,389 @@
+.logo {
+    height: 40px;
+    position: absolute;
+    left: 17%;
+    top: 15px;
+}
+
+.search {
+    width: 225px;
+    position: absolute;
+    left: 40%;
+    top: -80px;
+    opacity: 0.2;
+}
+
+.home {
+    height: 70px;
+    position: absolute;
+    right: 27.5%;
+    top: 5px;
+}
+
+.send {
+    height: 30px;
+    position: absolute;
+    right: 26%;
+    top: 19px;
+}
+
+.compass {
+    height: 30px;
+    position: absolute;
+    right: 23%;
+    top: 19px;
+}
+
+.likes {
+    height: 30px;
+    position: absolute;
+    right: 19.5%;
+    top: 19px;
+}
+
+.user {
+    height: 35px;
+    position: absolute;
+    right: 17%;
+    top: 15px;
+}
+
+.profilePic {
+    border-radius: 50%;
+    height: 150px;
+    position: absolute;
+    left: 23%;
+    top: 90px;
+}
+
+.hr1 {
+    position: absolute;
+    top: 63px;
+    width: 100%;
+    opacity: 0.5;
+}
+
+.name {
+    position: absolute;
+    left: 40%;
+    top: 73px;
+    font-size: 26px;
+}
+
+.verified {
+    height: 22px;
+    position: absolute;
+    left: 47.5%;
+    top: 103.5px;
+}
+
+.message {
+    border: solid #D3D3D3 1px;
+    width: 60px;
+    border-radius: 5px;
+    padding: 5px;
+    position: absolute;
+    left: 51%;
+    top: 85px;
+    font-size: 17px;
+}
+
+.following1 {
+    height: 30px;
+    width: 60px;
+    border: solid #D3D3D3 1px;
+    border-radius: 5px;
+    position: absolute;
+    left: 56.25%;
+    top: 102px;
+}
+
+.downArrow {
+    height: 30px;
+    border: solid #D3D3D3 1px;
+    border-radius: 5px;
+    position: absolute;
+    left: 60.75%;
+    top: 102px;
+}
+
+.ellipsis {
+    position: absolute;
+    left: 63.5%;
+    top: 69px;
+    font-size: 26px;
+}
+
+.posts {
+    position: absolute;
+    left: 40%;
+    top: 132px;
+    font-size: 17.9px;
+}
+
+.followers {
+    position: absolute;
+    left: 47.5%;
+    top: 132px;
+    font-size: 17.9px;
+}
+
+.following2 {
+    position: absolute;
+    left: 58%;
+    top: 132px;
+    font-size: 17.9px;
+}
+
+.fullName {
+    position: absolute;
+    left: 40%;
+    top: 176px;
+    font-size: 17.2px;
+}
+
+.description {
+    position: absolute;
+    left: 40%;
+    top: 200px;
+    font-size: 17px;
+    width: 650px;
+}
+
+.website {
+    position: absolute;
+    left: 40%;
+    top: 244px;
+    font-size: 17px;
+    width: 650px;
+    color: #00376b;
+}
+
+a:link {
+    color: #00376b;
+}
+
+a:visited {
+    color: #00376b;
+}
+
+a:hover {
+    color: #00376b;
+}
+
+a:active {
+    color: #00376b;
+}
+
+.info {
+    font-family: Arial, sans-serif;
+}
+
+.story1 {
+    height: 70px;
+    border: double #D3D3D3 5px;
+    border-radius: 50%;
+    position: absolute;
+    left: 22%;
+    top: 350px;
+}
+
+.story2 {
+    height: 70px;
+    border: double #D3D3D3 5px;
+    border-radius: 50%;
+    position: absolute;
+    left: 31%;
+    top: 350px;
+}
+
+.story3 {
+    height: 70px;
+    border: double #D3D3D3 5px;
+    border-radius: 50%;
+    position: absolute;
+    left: 40%;
+    top: 350px;
+}
+
+.story4 {
+    font-size: 14px;
+    position: absolute;
+    left: 22.5%;
+    top: 430px;
+}
+
+.story5 {
+    font-size: 14px;
+    position: absolute;
+    left: 32.7%;
+    top: 430px;
+}
+
+.story6 {
+    font-size: 14px;
+    position: absolute;
+    left: 41%;
+    top: 430px;
+}
+
+.hr2 {
+    position: absolute;
+    top: 525px;
+    width: 950px;
+    left: 250px;
+    opacity: 0.5;
+}
+
+.hr3 {
+    position: absolute;
+    top: 525px;
+    width: 65px;
+    left: 575px;
+    border: 0.75px solid black;
+}
+
+.posts1 {
+    height: 17px;
+    position: absolute;
+    top: 548.5px;
+    left: 575px;
+}
+
+.posts2 {
+    font-size: 13px;
+    position: absolute;
+    top: 537px;
+    left: 597px;
+}
+
+.igtv1 {
+    height: 17px;
+    position: absolute;
+    top: 548px;
+    left: 695px;
+    opacity: 0.5;
+}
+
+.igtv2 {
+    font-size: 13px;
+    position: absolute;
+    top: 536px;
+    left: 718px;
+    opacity: 0.5;
+}
+
+.tagged1 {
+    height: 17px;
+    position: absolute;
+    top: 548px;
+    left: 820px;
+    opacity: 0.5;
+}
+
+.tagged2 {
+    font-size: 13px;
+    position: absolute;
+    top: 537px;
+    left: 844.5px;
+    opacity: 0.5;
+}
+
+.imgs1 {
+    display: flex;
+    justify-content: space-evenly;
+    position: absolute;
+    width: 950px;
+    left: 250px;
+    top: 590px;
+}
+
+.post01 {
+    height: 293px;
+    width: 293px;
+}
+
+.imgs2 {
+    display: flex;
+    justify-content: space-evenly;
+    position: absolute;
+    width: 950px;
+    left: 250px;
+    top: 900px;
+}
+
+.post02 {
+    height: 293px;
+    width: 293px;
+}
+
+.imgs3 {
+    display: flex;
+    justify-content: space-evenly;
+    position: absolute;
+    width: 950px;
+    left: 250px;
+    top: 1210px;
+}
+
+.post03 {
+    height: 293px;
+    width: 293px;
+}
+
+.imgs4 {
+    display: flex;
+    justify-content: space-evenly;
+    position: absolute;
+    width: 950px;
+    left: 250px;
+    top: 1520px;
+}
+
+.post04 {
+    height: 293px;
+    width: 293px;
+}
+
+.imgs5 {
+    display: flex;
+    justify-content: space-evenly;
+    position: absolute;
+    width: 950px;
+    left: 250px;
+    top: 1831px;
+}
+
+.post05 {
+    height: 293px;
+    width: 293px;
+}
+
+.imgs6 {
+    display: flex;
+    justify-content: space-evenly;
+    position: absolute;
+    width: 950px;
+    left: 250px;
+    top: 2142px;
+}
+
+.post06 {
+    height: 293px;
+    width: 293px;
+}
+
+.imgs7 {
+    display: flex;
+    justify-content: space-evenly;
+    position: absolute;
+    width: 950px;
+    left: 250px;
+    top: 2453px;
+    padding-bottom: 25px;
+}
+
+.post07 {
+    height: 293px;
+    width: 293px;
+}
